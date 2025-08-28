@@ -1,0 +1,10 @@
+langchain
+ipykernel==6.30.0
+python-dotenv
+langchain_groq
+langchain_openai
+
+
+
+
+-e .
