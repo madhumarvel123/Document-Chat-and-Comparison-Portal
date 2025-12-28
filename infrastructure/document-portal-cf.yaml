@@ -168,8 +168,8 @@ Resources:
               ValueFrom: arn:aws:secretsmanager:us-east-1:685057748560:secret:GROQ_API_KEY
             - Name: HF_TOKEN
               ValueFrom: arn:aws:secretsmanager:us-east-1:685057748560:secret:HF_TOKEN
-            - Name: GOOGLE_API_KEY
-              ValueFrom: arn:aws:secretsmanager:us-east-1:685057748560:secret:GOOGLE_API_KEY
+            - Name: OPENAI_API_KEY
+              ValueFrom: arn:aws:secretsmanager:us-east-1:685057748560:secret:OPENAI_API_KEY
             - Name: LANGCHAIN_API_KEY
               ValueFrom: arn:aws:secretsmanager:us-east-1:685057748560:secret:LANGCHAIN_API_KEY
           LogConfiguration:
